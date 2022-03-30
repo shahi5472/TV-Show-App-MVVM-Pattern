@@ -18,7 +18,8 @@
         <activity android:name=".activities.SearchActivity" />
         <activity android:name=".activities.WatchListActivity" />
         <activity android:name=".activities.TVShowDetailsActivity" />
-        <activity android:name=".activities.MainActivity">
+        <activity android:name=".activities.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
